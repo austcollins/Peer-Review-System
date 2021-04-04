@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "createDatabase": "dropdb peer-review-system; createdb peer-review-system; psql peer-review-system < sql/init.sql"
+  },
+  "author": "",
+  "license": "ISC"
+}
